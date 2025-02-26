@@ -1,0 +1,30 @@
+.home-container {
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f1e0;
+  }
+  
+.heading {
+  font-size: 26px;
+  color: rgb(230, 142, 35);
+}
+
+.pricing-container {
+  background: #ffffff;
+  padding: 10px;
+}
+  .pricing-cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .pricing-cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

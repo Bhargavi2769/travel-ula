@@ -1,0 +1,51 @@
+.cta {
+    background: url("../../assets/pet.jpg") no-repeat center center/cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+    position: relative;
+  }
+  
+  .cta::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .cta-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .cta-button {
+    background: #25e00c;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #e68900;
+  }
+  
