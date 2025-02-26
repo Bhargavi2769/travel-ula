@@ -1,4 +1,87 @@
-# Getting Started with Create React App
+# Travel Unbounded Tour Package Landing Page
+
+## Overview
+
+This project is a landing page for Maasai Mara tour packages, built using React.js. The page highlights the beauty and adventure of Maasai Mara, providing essential details about the tour, testimonials, and an engaging user experience.
+
+### Features
+
+Hero Section: Displays a captivating hero image with a tagline.
+
+Tour Details: Information about the package, including itinerary, pricing, and highlights.
+
+Testimonials: A slider showcasing customer reviews.
+
+Gallery: Stunning images of Maasai Mara wildlife and landscapes.
+
+Contact Section: Form for inquiries and bookings.
+
+Responsive Design: Optimized for desktop and mobile devices.
+
+### Tech Stack
+
+Frontend: React.js
+
+Styling: CSS (No Tailwind CSS used)
+
+Testimonial Slider: React library for smooth transitions (recommended slider to be used)
+
+### Installation
+
+Clone the repository:
+
+git clone https://github.com/Bhargavi2769/travel-ula.git
+cd travel-unbounded
+
+Install dependencies:
+
+### npm install
+
+Start the development server:
+
+### npm start
+
+## Project Structure
+
+/src
+  ├── assets/               # Contains images and media files
+  ├── components/           # Reusable React components
+  ├── pages/                # Individual pages of the website
+  ├── styles/               # CSS styles for components and pages
+  ├── App.js                # Main React component
+  ├── index.js              # Entry point of the application
+
+### Usage
+
+Navigate to the website.
+
+Explore the available tour packages.
+
+Read testimonials from previous travelers.
+
+Contact for booking or inquiries.
+
+### Customization
+
+Modify images in the assets/ folder.
+
+Update text content and descriptions in components/ and pages/.
+
+Adjust styles in the styles/ folder.
+
+### Contributions
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+### License
+
+This project is licensed under the MIT License.
+
+### Contact
+
+For any inquiries or support, please reach out to bhargavi.shivakoti@gmail.com.
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
