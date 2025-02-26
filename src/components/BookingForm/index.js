@@ -43,7 +43,7 @@ const BookingForm = ({ selectedPackage, onClose }) => {
   return (
     <>
       <div className="booking-form-overlay" onClick={onClose}></div>
-      <div className="booking-form-container">
+      <div className="booking-form-container" onClick={(e) => e.stopPropagation()}>
         <h2>Book Your Tour - {selectedPackage.title}</h2>
         {isSubmitted ? (
           <div className="success-message">
